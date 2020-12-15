@@ -1,0 +1,321 @@
+/* ========
+Basic
+======== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+/* ==================
+ReUsable Component
+================== */
+section{
+    margin-bottom: 10rem;
+}
+p,q,a,li,button{
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 0.8rem;
+}
+h6{
+    font-size: 0.4rem;
+}
+button:focus{
+    outline: none;
+}
+
+/* ===============
+Header section
+=============== */
+header{
+    height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url('banner.png')
+    no-repeat center;
+}
+.logo{
+    margin: 2rem 0;
+    height: 10rem;
+    width: 10rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.logo:hover{
+    box-shadow: 0 0 1rem gray;
+}
+
+.logo h2{
+    text-align: center;
+    font-family: Arizonia Regular;
+    color: #452fe9;
+    font-size: 8.2rem;
+}
+.nav-text{
+    font-weight: 700;
+    color: #4929e8;
+    margin: 0 10px;
+}
+.log-in-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 10px;
+}
+.try-now-btn{
+    background-color:#4929e8;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.try-now-btn:hover{
+    box-shadow: 0 0 1rem gray;
+}
+.banner-text{
+    width: 45%;
+    margin: auto;
+    font-size: 6rem;
+    font-family: Libre Franklin Black;
+}
+.lookmore-btn{  
+    padding: 1.3rem 1.7rem ;
+    border: none;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 2rem ;
+}
+.lookmore-btn:hover{
+    background-color: #4929e8 ;
+    color: white;
+    box-shadow: 0 0 1rem gray;
+}
+
+/* ===============
+Bar section
+=============== */
+.bar{
+    height: 10rem;
+    background-color: #4929e7;
+    color:#fff;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.bar-text{
+    padding: 1.9rem 1rem;
+    margin-bottom:0 ;
+}
+/* ===============
+Card 1 section
+=============== */
+.card1{
+    width: 55%;
+    height: 38rem;
+    margin: 5rem auto;
+    background: url(cardBbanner.png);
+    background-position: center;
+    background-size: cover cover;
+    
+}
+.card1 h2{
+    
+    font-family: Libre Franklin Black;
+}
+.card-desc{
+    margin-top: 3rem;
+}
+.parcent-row{
+    margin-top: 10rem;
+}
+.parcent-row h3{
+    font-family: Libre Franklin Black;
+    color: #4a27e7;
+}
+.parcent{
+    font-size: 8rem;
+    color: #4a27e7;
+}
+.parcent-row p {
+    margin-left: 1rem;
+    margin-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+/* ======
+Intro 
+====== */
+.intro-img{
+    margin-left: 5rem;
+}
+.intro-heading{
+    font-family: Libre Franklin Black;
+    font-size: 3.6rem;
+
+}
+.lookmore-btn2{
+    background-color:#4929e8;
+    color: #fff;
+    padding: 1rem 3rem ;
+    border: none;
+    font-weight: 600;
+    border-radius: 2rem ;
+    margin: auto;
+    right: 0;
+    justify-content: safe;
+    margin-top: 3rem;
+}
+.lookmore-btn2:hover{
+    box-shadow: 0 0 1rem gray;
+}
+.intro-right{
+    margin: auto;
+    padding: 5rem 0 5rem 5rem;
+}
+/* ========
+Efficiency
+=========== */
+.eff-heading{
+    font-size: 3.6rem;
+    font-family: Libre Franklin Black;
+}
+.eff-desc{
+    font-size: 1.6rem;
+}
+.eff-first h3, .eff-first p{
+    margin: auto;
+    padding: 1rem;
+}
+.eff-left-part{
+    margin-left: 5rem;
+}
+.one{
+    margin: 2rem 0;
+           
+}
+.one span{
+    padding-left:1rem;
+    font-size: 1.6rem;
+}
+
+/* ===============
+Mini Card section
+=============== */
+
+.mini-card{
+    text-align: center;
+}
+.mini-card-head{
+    font-family: Libre Franklin Black;
+    font-size: 3.6rem;  
+    padding: 3rem;
+    margin: 2rem auto;
+}
+.mini-card-desc{
+    padding: 0 3rem;
+}
+.card-desc{
+    padding: 0 1rem;
+}
+.min-cards:hover{
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem gray;
+}
+/* =========
+Quoets
+========= */
+.qoets{
+    text-align: center;
+}
+.quoets-head{
+    font-family: Libre Franklin Black;
+    font-size: 3.6rem;
+    padding-bottom: 5rem;
+}
+.quoets-text{
+    padding: 3rem;
+    margin: 3rem 0;
+}
+.card-down{
+    margin: 2rem 0;
+}
+.quoet-card:hover{
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem gray;
+}
+/* =========
+Contact
+========= */
+.contact-head{
+    font-family: Libre Franklin Black;
+    font-size: 3.6rem;
+    padding-bottom: 5rem;
+}
+.name,.email{
+    width: 100%;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    margin-bottom:5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    font-family: Libre Franklin;
+}
+.message{
+    width: 100%;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    font-family: Libre Franklin;
+    resize: none;
+}
+.down-row{
+    position: relative;
+}
+.send-btn{
+    position: absolute;
+    bottom: 1rem;
+    background-color:#4929e8;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.name:focus,.email:focus,.message:focus{
+    outline: none;
+}
+/* =========
+Footer
+========= */
+footer{
+    height: 5rem;
+    background-color:#4929e8;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-weight: 600;
+}

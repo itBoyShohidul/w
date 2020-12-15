@@ -1,0 +1,103 @@
+/* ==========
+Basic
+=========== */
+
+[class*="col-"] {
+    width: 100%;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 10 px ;
+}
+/* ========
+Header
+======== */
+header{
+    height: 85vh;
+    background-position: center right;
+}
+.banner-text{
+    width: 50%;
+    margin: 2rem auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Libre Franklin Black;
+}
+.lookmore-btn{
+    margin-top: 2rem;
+}
+.nav-div{
+    margin-left: 20%;
+}
+
+/* =====
+Bar
+===== */
+.bar-text h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* ======
+Other
+====== */
+
+.card1{
+    width: 80%;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    background-position: center right;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: 45rem;
+}
+.card1 h2{
+    font-size: 2.4rem;
+}
+.parcent-row{
+    display: block;
+    margin-top: 0;
+    padding: 1rem;
+}
+.parcent-row p {
+    margin: 0;
+}
+.one h6,
+.two h6{
+    padding-left:1rem;
+    font-size: 1.4rem;
+}
+.name,.email,.message{
+    margin-bottom: 2rem;
+}
+.send-btn{
+    bottom: -5rem;
+}
+/* ===========
+Efficiency
+=========== */
+
+
+/* ======
+Quoets
+======= */
+.quoet-card{
+    max-width: 80%;
+    margin: 2rem auto;
+    border: 0.1rem solid gray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
