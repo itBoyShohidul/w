@@ -239,6 +239,7 @@ Mini Card section
 .min-cards:hover{
     border-radius: 0.5rem;
     box-shadow: 0 0 1rem gray;
+    transition: 1s;
 }
 /* =========
 Quoets
@@ -261,6 +262,7 @@ Quoets
 .quoet-card:hover{
     border-radius: 0.5rem;
     box-shadow: 0 0 1rem gray;
+    transition: 1s;
 }
 /* =========
 Contact
